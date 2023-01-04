@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PTV09A-4020F-B103
+D 9mm carbon potentiometer linear 10K 20% Bourns PTV Series, Linear Potentiometer with a 6 mm Dia. Shaft, 10k, +/-20%, 0.05W, Through Hole
+K
+F https://www.bourns.com/docs/Product-Datasheets/ptv09.pdf
+$ENDCMP
+#
+#End Doc Library
