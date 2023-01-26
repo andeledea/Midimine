@@ -237,6 +237,16 @@
     (uuid 376b718d-61a6-4976-a6fc-09ac9813aa62)
   )
 
+  (no_connect (at 162.56 69.85) (uuid 060a8485-5aec-40b2-8fe2-22f9b1afca29))
+  (no_connect (at 152.4 59.69) (uuid 10f18395-5d89-4296-9525-e11a065737fc))
+  (no_connect (at 137.16 72.39) (uuid 19b8cb51-624f-47a0-b6a0-c0f4ffc62847))
+  (no_connect (at 137.16 80.01) (uuid 37c71f0b-b150-4d0c-9b45-173b1da3f600))
+  (no_connect (at 147.32 59.69) (uuid 44f0a870-2c80-4685-9a7e-be9a9aad7540))
+  (no_connect (at 137.16 69.85) (uuid 62f2e6f7-5c43-4616-ac20-e6b16a89bcd8))
+  (no_connect (at 162.56 72.39) (uuid 94a12d9f-bb8d-4de6-9ac8-674a6f257611))
+  (no_connect (at 162.56 80.01) (uuid bca0181f-8ab9-4db1-a2df-45a28bfedd52))
+  (no_connect (at 137.16 90.17) (uuid ca7637f0-65d1-430d-99fd-9a64e576e4e6))
+
   (wire (pts (xy 149.86 111.76) (xy 151.13 111.76))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 01ee4227-194a-4a8d-ab13-4e1b308e36d5)
@@ -308,6 +318,10 @@
   (wire (pts (xy 125.73 97.79) (xy 137.16 97.79))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid b2c2d67d-403c-40a5-a929-1ddfe146027d)
+  )
+  (wire (pts (xy 125.73 92.71) (xy 137.16 92.71))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid bd8e0ce8-d2a9-4961-8fd8-e040dae78b1a)
   )
   (wire (pts (xy 125.73 100.33) (xy 137.16 100.33))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -453,6 +467,13 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid f6cf02d9-097b-4900-b9d0-441667d0d8c1)
     (property "Riferimenti inter-foglio" "${INTERSHEET_REFS}" (id 0) (at 119.4464 95.1706 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "EN_S1" (shape input) (at 125.73 92.71 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid fefc0e61-119c-4c19-85e3-80b72c62c2e0)
+    (property "Riferimenti inter-foglio" "${INTERSHEET_REFS}" (id 0) (at 117.4507 92.6306 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -686,6 +707,9 @@
     (path "/e72fcb59-f9ff-4380-bc76-0e706ee9ae8d/3ee0ba9c-a7e1-47f3-b71e-8c82178d2cd0"
       (reference "#PWR0118") (unit 1) (value "GND") (footprint "")
     )
+    (path "/20a291b4-c404-4138-ad99-1a2e5671a6b2/6b5f8795-0033-4ede-a14f-98318d4c48a1"
+      (reference "#PWR0119") (unit 1) (value "GND") (footprint "")
+    )
     (path "/884b9d54-80ae-4e54-a815-6e293bda6859"
       (reference "A0") (unit 1) (value "Arduino_Nano_v2.x") (footprint "Module:Arduino_Nano")
     )
@@ -694,6 +718,9 @@
     )
     (path "/20a291b4-c404-4138-ad99-1a2e5671a6b2/bad84cfa-c27d-4f73-85e5-cd8ae6de4b59"
       (reference "C_ENB1") (unit 1) (value "10n") (footprint "Capacitor_Tantalum_SMD:CP_EIA-1608-08_AVX-J")
+    )
+    (path "/20a291b4-c404-4138-ad99-1a2e5671a6b2/5b09d0cb-8d06-4f27-8e82-18f666e53b19"
+      (reference "C_ENSW1") (unit 1) (value "220n") (footprint "Capacitor_Tantalum_SMD:CP_EIA-1608-08_AVX-J")
     )
     (path "/e72fcb59-f9ff-4380-bc76-0e706ee9ae8d/ee8a2ba9-5028-445b-8834-7e18569ef9cf"
       (reference "C_SW1") (unit 1) (value "220n") (footprint "Capacitor_Tantalum_SMD:CP_EIA-1608-08_AVX-J")
@@ -815,6 +842,9 @@
     (path "/20a291b4-c404-4138-ad99-1a2e5671a6b2/09a33c3b-9d53-40b0-b4cd-28c426e03960"
       (reference "R_ENB2") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
+    (path "/20a291b4-c404-4138-ad99-1a2e5671a6b2/9074d8cb-d7a2-4dff-ac33-64bbd248877f"
+      (reference "R_ENSW1") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
     (path "/e72fcb59-f9ff-4380-bc76-0e706ee9ae8d/9ec1567d-4aeb-4c4a-bffe-3b0fff8e802f"
       (reference "R_SW1") (unit 1) (value "330") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
@@ -827,17 +857,17 @@
     (path "/e72fcb59-f9ff-4380-bc76-0e706ee9ae8d/61853103-48c2-43e6-9076-18be8087abae"
       (reference "R_SW4") (unit 1) (value "330") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/e72fcb59-f9ff-4380-bc76-0e706ee9ae8d/237008f9-b98d-4399-95ce-779f5d1c301f"
-      (reference "SW1") (unit 1) (value "SW_SPST") (footprint "Button_Switch_THT:SW_SPST_Omron_B3F-315x_Angled")
+    (path "/e72fcb59-f9ff-4380-bc76-0e706ee9ae8d/42ac24b0-e15b-4a02-ae76-9b444669c7a9"
+      (reference "SW1") (unit 1) (value "SW_Push_Dual") (footprint "Button_Switch_THT:SW_PUSH_6mm_H5mm")
     )
-    (path "/e72fcb59-f9ff-4380-bc76-0e706ee9ae8d/940f1bbb-4a93-4e6e-9666-3816ac43a755"
-      (reference "SW2") (unit 1) (value "SW_SPST") (footprint "Button_Switch_THT:SW_SPST_Omron_B3F-315x_Angled")
+    (path "/e72fcb59-f9ff-4380-bc76-0e706ee9ae8d/049a6df3-7fc0-4998-8a9b-108be31f7d02"
+      (reference "SW2") (unit 1) (value "SW_Push_Dual") (footprint "Button_Switch_THT:SW_PUSH_6mm_H5mm")
     )
-    (path "/e72fcb59-f9ff-4380-bc76-0e706ee9ae8d/025e7e44-d9e2-4837-811e-ea33436f9fb9"
-      (reference "SW3") (unit 1) (value "SW_SPST") (footprint "Button_Switch_THT:SW_SPST_Omron_B3F-315x_Angled")
+    (path "/e72fcb59-f9ff-4380-bc76-0e706ee9ae8d/729b79c9-0d4a-4104-ac87-61607b4cd4e6"
+      (reference "SW3") (unit 1) (value "SW_Push_Dual") (footprint "Button_Switch_THT:SW_PUSH_6mm_H5mm")
     )
-    (path "/e72fcb59-f9ff-4380-bc76-0e706ee9ae8d/b0c16084-2ae6-494a-b845-9147b687876a"
-      (reference "SW4") (unit 1) (value "SW_SPST") (footprint "Button_Switch_THT:SW_SPST_Omron_B3F-315x_Angled")
+    (path "/e72fcb59-f9ff-4380-bc76-0e706ee9ae8d/1e84c12f-2137-461f-9820-c08fd35a559f"
+      (reference "SW4") (unit 1) (value "SW_Push_Dual") (footprint "Button_Switch_THT:SW_PUSH_6mm_H5mm")
     )
     (path "/20a291b4-c404-4138-ad99-1a2e5671a6b2/79dabf10-e82d-4f0a-b798-52d25adfbdf1"
       (reference "SW_BANK1") (unit 1) (value "RotaryEncoder") (footprint "Rotary_Encoder:RotaryEncoder_Bourns_Vertical_PEC12R-3xxxF-Sxxxx")

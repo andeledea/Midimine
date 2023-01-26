@@ -60,7 +60,11 @@
           "width": 0.3
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_over_copper|175069463|40005000|3ec12825-6670-4074-a2ef-8bb89dd4134f|a361d345-4dc9-479d-9db8-6375b37ab558",
+        "silk_over_copper|214495000|147320000|114ab051-1b0a-463d-ad4e-9571eda88004|296acf61-dac2-4051-925d-850aaf3e808a",
+        "silk_overlap|223520000|40005000|296acf61-dac2-4051-925d-850aaf3e808a|cfd3a9ad-8fd5-4382-addd-4bb6e1852716"
+      ],
       "meta": {
         "version": 2
       },
@@ -126,7 +130,8 @@
       "track_widths": [
         0.0,
         0.3,
-        0.5
+        0.5,
+        1.5
       ],
       "via_dimensions": [
         {
@@ -136,6 +141,10 @@
         {
           "diameter": 0.7,
           "drill": 0.3
+        },
+        {
+          "diameter": 1.5,
+          "drill": 0.5
         }
       ],
       "zones_allow_external_fillets": false,
